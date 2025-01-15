@@ -1,2 +1,1 @@
-# Coldrink-Website
-First repository .....
+This websit is designed as solution for local business of wholesaler Called jayshankar traders. I designed this wesite using just HTML and CSS which displyas available products and the contact information of the owner.
