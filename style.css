@@ -575,6 +575,7 @@ html{
   
     .banner img {
       height: auto;
+      padding-top: 170px;
     }
   
     .sprite-content h3 {
