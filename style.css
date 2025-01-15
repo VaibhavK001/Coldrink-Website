@@ -501,7 +501,8 @@ html{
       height: auto;
       padding: 10px;
       text-align: center;
-      position: static;
+      position: fixed;
+      top:0px;
     }
   
     .navbar ul {
