@@ -1,0 +1,603 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  
+  
+  position: fixed;
+  top: 0;
+  color: white;
+  background-color: black;
+  /* background-image: url('iceblue.jpg'); /* Replace with your image path */
+  /* background-size: cover; /* Makes the image cover the navbar area */
+  /* background-position:bottom; Center the image */
+  /* background-repeat: no-repeat; Prevent the image from repeating */
+  height: 90px; 
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-right: 50px;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.navbar ul li a:hover {
+ color: orangered;
+ text-shadow: 0 0 1px red;
+ border-bottom: 3px solid white;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    color: orangered;
+    font-weight: 800;
+    /* text-shadow: 0 0 4px orangered; */
+    letter-spacing: 1.4px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* .email{
+    font-size: 15px;
+    text-shadow: none;
+    color: black;
+    font-weight: normal;
+} */
+
+.main-content{
+    width: 100%;
+    height: 500px;
+    background-image: url(newbannercoldrinks.jpg);
+    background-size: cover; 
+    background-position:bottom; 
+    background-repeat: no-repeat;
+    filter: blur(4px);
+    z-index: -1;
+    padding-top: 160px;
+    
+}
+.main-content2{
+    width: 100%;
+    height: 500px;
+    background-image: url(newbannercoldrinks.jpg);
+    background-size: cover; 
+    background-position:bottom; 
+    background-repeat: no-repeat;
+    filter: blur(4px);
+}
+.main-content3{
+    width: 100%;
+    height: 500px;
+    background-image: url(newbannercoldrinks.jpg);
+    background-size: cover; 
+    background-position:bottom; 
+    background-repeat: no-repeat;
+    filter: blur(4px);
+    
+   
+}
+.card1{
+    position: absolute;
+    top: 150px;
+    left: 15px;
+   
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.sting-content h3{
+    font-size: 25px;
+}
+.card2{
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card2 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+}
+.sprite-content h3{
+    font-size: 25px;
+}
+.card3{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 8px;
+    
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card3 img{
+    width: 100%;
+    height: 225px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.sprite-content h3{
+    font-size: 25px;
+}
+.card4{
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card4 img{
+    width: 100%;
+    height: 225px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.sprite-content h3{
+    font-size: 25px;
+}
+.card5{
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card5 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.sprite-content h3{
+    font-size: 25px;
+}
+.card6{
+    position: absolute;
+    top: 520px;
+    left: 15px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card6 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.sprite-content h3{
+    font-size: 25px;
+}
+.card7{
+    position: absolute;
+    top: 520px;
+    left: 250px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card7 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.sprite-content h3{
+    font-size: 25px;
+}
+.card8{
+    position: absolute;
+    top: 520px;
+    left: 500px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card8 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.sprite-content h3{
+    font-size: 25px;
+}
+.card9{
+    position: absolute;
+    top: 520px;
+    left: 750px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card9 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.sprite-content h3{
+    font-size: 25px;
+}
+.card10{
+    position: absolute;
+    top: 520px;
+    left: 1000px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card10 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.sprite-content h3{
+    font-size: 25px;
+}
+.card11{
+    position: absolute;
+    top: 880px;
+    left: 15px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card11 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.card12{
+    position: absolute;
+    top: 880px;
+    left: 250px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card12 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.card13{
+    position: absolute;
+    top: 880px;
+    left: 500px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card13 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.card14{
+    position: absolute;
+    top: 880px;
+    left: 750px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card14 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.card15{
+    position: absolute;
+    top: 880px;
+    left: 1000px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card15 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+
+
+.card16{
+    position: absolute;
+    top: 1250px;
+    left: 15px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card16 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+
+
+.card17{
+    position: absolute;
+    top: 1250px;
+    left: 250px;
+    z-index: 100;
+    width: 200px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card17 img{
+    width: 100%;
+    height: 225px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+
+.banner{
+    width: 100%;
+   
+
+}
+.banner img{
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General adjustments for mobile screens */
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+      text-align: center;
+      position: static;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      gap: 10px;
+    }
+  
+    .navbar ul li {
+      margin: 0;
+    }
+  
+    .logo {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+  
+    .main-content,
+    .main-content2,
+    .main-content3 {
+      height: 300px;
+      padding-top: 100px;
+      display: none;
+    }
+  
+    /* Adjust card layout for single-column stacking */
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9,
+    .card10,
+    .card11,
+    .card12,
+    .card13,
+    .card14,
+    .card15,
+    .card16,
+    .card17 {
+      position: static;
+      margin: 10px auto;
+      width: 80%;
+      height: auto;
+    }
+  
+    .card1 img,
+    .card2 img,
+    .card3 img,
+    .card4 img,
+    .card5 img,
+    .card6 img,
+    .card7 img,
+    .card8 img,
+    .card9 img,
+    .card10 img,
+    .card11 img,
+    .card12 img,
+    .card13 img,
+    .card14 img,
+    .card15 img,
+    .card16 img,
+    .card17 img {
+      height: auto;
+    }
+  
+    .banner img {
+      height: auto;
+    }
+  
+    .sprite-content h3 {
+      font-size: 20px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
